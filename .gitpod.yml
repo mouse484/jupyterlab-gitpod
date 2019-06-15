@@ -1,6 +1,6 @@
 tasks:
     - init : pip install jupyterlab
-    - command: jupyter lab
+      command: jupyter lab
 ports:
   - port: 8888
     onOpen : open-browser
